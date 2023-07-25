@@ -1,0 +1,19 @@
+{
+  "name": "taxchat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ccutch/taxchat.git",
+  "author": "Connor McCutcheon <connormccutcheon95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hnswlib-node": "^2.0.0",
+    "langchain": "^0.0.117",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^3.0.0",
+    "zod": "^3.21.4"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  }
+}
